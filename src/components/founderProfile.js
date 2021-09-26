@@ -6,12 +6,13 @@ import Typography from "@mui/material/Typography";
 import "./know.scss";
 import { CardActionArea } from "@mui/material";
 import Grid from "@material-ui/core/Grid";
-import Image from "../assets/lib.jpg";
+import Image from "../assets/rohan4.jpg";
+import Image2 from "../assets/saurav.jpg";
 
 export default function ActionAreaCard() {
   let cardData = [
-    { key: 1, title: "Rohan", subheading: "Founder, Deal with all the medical and railway sectors" },
-    { key: 2, title: "Saurav", subheading: "Founder, Deal with all the Automobiles and other sectors " },
+    { key: 1, icon: Image, title: "Rohan", subheading: "Founder, Deal with all the medical and railway sectors" },
+    { key: 2, icon: Image2, title: "Saurav", subheading: "Founder, Deal with all the Automobiles and other sectors " },
   ];
 
   return (
@@ -22,7 +23,7 @@ export default function ActionAreaCard() {
         return (
           <Grid item lg={3} md={3} sm={12} xs={12} className="card-spacing" key={data.key}>
             <CardActionArea>
-              <CardMedia component="img" height="140" image={Image} alt="green iguana" />
+              <CardMedia component="img" height="140" image={data.icon} alt="green iguana" />
               <Card className={index % 2 ? "card-color-two" : "card-color"} elevation={10}>
                 <CardContent className="card-content">
                   {/* <span className="icon-size">
