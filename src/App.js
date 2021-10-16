@@ -4,12 +4,12 @@ import './App.css';
 import React, { Fragment, Suspense, lazy } from "react"
 // import { MuiThemeProvider, CssBaseline } from "@material-ui/core"
 import { BrowserRouter, Route, Switch } from "react-router-dom"
-import Home from "./components/home"
-import Headers from "./components/headers"
-import Railway from "./components/railway"
-import Automobiles from "./components/Automobiles"
-import Cctv from "./components/Cctv"
-import Medical from "./components/Medical"
+import Home from "./components/home/home"
+import Headers from "./components/headers/headers"
+import Railway from "./components/workover/railway"
+import Automobiles from "./components/workover/Automobiles"
+import Cctv from "./components/workover/Cctv"
+import Medical from "./components/workover/Medical"
 
 // import theme from "./theme"
 

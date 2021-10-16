@@ -9,30 +9,14 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Slide from "@mui/material/Slide";
 import Paper from "@mui/material/Paper";
-import About from "./about";
-import Know from "./knowmore";
-import Querry from "./querry";
-import Profile from "./founderProfile";
-import Footer from "./footer";
-import Logo from "../assets/logos.png";
-import CardMedia from "@mui/material/CardMedia";
+import Know from "../workover/knowmore";
+import Querry from "../querryform/querry";
+import Profile from "../founders/founderProfile";
+import Footer from "../footer/footer";
 import { makeStyles } from "@material-ui/core/styles";
-import { Link } from "react-scroll";
-import { Button, Grid } from "@mui/material";
-import AboutUs from "./AboutUs";
-import MobMenu from "./mobileMenu";
-import navButtons from "./navButtons";
+import AboutUs from "../about/AboutUs";
 import { styled, alpha } from '@mui/material/styles';
 import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
-import EditIcon from '@mui/icons-material/Edit';
-import Divider from '@mui/material/Divider';
-import ArchiveIcon from '@mui/icons-material/Archive';
-import FileCopyIcon from '@mui/icons-material/FileCopy';
-import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import MenuIcon from '@mui/icons-material/Menu';
-import Headers from "./headers.js";
 
 
 const styles = {

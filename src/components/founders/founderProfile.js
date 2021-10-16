@@ -3,11 +3,11 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import "./know.scss";
+import "../cssFolder/know.scss";
 import { CardActionArea } from "@mui/material";
 import Grid from "@material-ui/core/Grid";
-import Image from "../assets/rohan4.jpg";
-import Image2 from "../assets/saurav.jpg";
+import Image from "../../assets/rohan4.jpg";
+import Image2 from "../../assets/saurav.jpg";
 
 export default function ActionAreaCard() {
   let cardData = [
@@ -29,11 +29,11 @@ export default function ActionAreaCard() {
                   {/* <span className="icon-size">
                       <Icon icon={data.icon} className="my-services-icon-style" />
                     </span> */}
-                  <p style={{ overflow: "clip" }} className="heading-color card-heading">
+                  <p style={{ overflow: "clip", color:"black" }} className="heading-color card-heading">
                     {data.title}
                   </p>
                   <div className="skill-heading-container">
-                    <p className="heading-color">{data.subheading}</p>
+                    <p className="heading-color"  style={{ overflow: "clip", color:"black" }} >{data.subheading}</p>
                   </div>
                 </CardContent>
               </Card>

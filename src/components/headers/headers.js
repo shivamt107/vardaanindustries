@@ -9,19 +9,11 @@ import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import Slide from "@mui/material/Slide";
 import Paper from "@mui/material/Paper";
-import About from "./about";
-import Know from "./knowmore";
-import Querry from "./querry";
-import Profile from "./founderProfile";
-import Footer from "./footer";
-import Logo from "../assets/logos.png";
+import Logo from "../../assets/logos.png";
 import CardMedia from "@mui/material/CardMedia";
 import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-scroll";
 import { Button, Grid } from "@mui/material";
-import AboutUs from "./AboutUs";
-import MobMenu from "./mobileMenu";
-import navButtons from "./navButtons";
 import { styled, alpha } from '@mui/material/styles';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -157,7 +149,7 @@ export default function HideAppBar(props) {
         <AppBar style={{ backgroundColor: "black" }}>
           <div className={classes.sectionDesktop}>
             <Grid container justify="center">
-              <Grid item xs={2}>
+              <Grid item xs={2} style={{marginLeft: "15px"}}>
                 <img src={Logo} alt="logo" width="150" height="60" />
               </Grid>
               {navData.map((data) => {
@@ -222,11 +214,11 @@ export default function HideAppBar(props) {
         </AppBar>
       </HideOnScroll>
       <Toolbar />
-      <AboutUs />
+      {/* <AboutUs />
       <Know />
       <Querry />
       <Profile />
-      <Footer />
+      <Footer /> */}
     </React.Fragment>
   );
 }

@@ -27,11 +27,11 @@ const AboutUs = () => {
       <div className="over-lay">
       <Typography style={{ padding:"18%" ,color:"white"}}  variant="h2" component="div" gutterBottom>
           Vardaan
-          <div className={classes.sectionDesktop}>
+          {/* <div className={classes.sectionDesktop}>
             <div style={{marginRight: "46px"}} className="cheese">
               <div className="burger"></div>
             </div>
-            </div>
+            </div> */}
           {/* <div className={classes.sectionMobile}>
             <div style={{marginRight: "46px"}} className="cheese">
               <div className="burger"></div>

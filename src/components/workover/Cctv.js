@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Slide from "@material-ui/core/Slide";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
-import Image2 from "../assets/lib.jpg";
+import Image2 from "../../assets/lib.jpg";
 import CardMedia from "@mui/material/CardMedia";
 // import { Icon } from "@iconify/react";
 // import send from "@iconify-icons/mdi/send";
@@ -17,7 +17,7 @@ function Railway() {
     <>
        <div id="querry">
        <Typography style={{color:"black" , marginLeft:"10px"}}>
-               <h2>Medical</h2>
+               <h2>CCTV</h2>
            </Typography>
             <Card style={{backgroundColor: "black", overflow:"hidden", marginTop:"10px", padding:"28px"}} elevation={10} >
            

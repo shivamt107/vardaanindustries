@@ -1,5 +1,5 @@
 import React from "react";
-import "./know.scss";
+import "../cssFolder/know.scss";
 import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Card from "@material-ui/core/Card";
@@ -43,7 +43,7 @@ function MyServices() {
               </CardContent>
               <CardActions>
               <Link href={data.link} underline="none">
-      <Button size="small" style={{color:"#f05571", fontWeight:"600"}} >Learn More</Button>
+      <Button size="small" style={{color:"#f05571", fontWeight:"600"}} >Know More</Button>
       </Link>
     </CardActions>
             </Card>

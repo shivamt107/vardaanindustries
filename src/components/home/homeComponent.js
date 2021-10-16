@@ -13,7 +13,7 @@ import About from "./about";
 import Know from "./knowmore";
 import Querry from "./querry";
 import Profile from "./founderProfile";
-import Footer from "./footer";
+import Footer from "./footer/footer";
 import Logo from "../assets/logos.png";
 import CardMedia from "@mui/material/CardMedia";
 import { makeStyles } from "@material-ui/core/styles";
@@ -222,11 +222,11 @@ export default function HideAppBar(props) {
         </AppBar>
       </HideOnScroll>
       <Toolbar />
-      {/* <AboutUs />
+      <AboutUs />
       <Know />
       <Querry />
       <Profile />
-      <Footer /> */}
+      <Footer />
     </React.Fragment>
   );
 }

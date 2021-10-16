@@ -45,6 +45,6 @@
     ]
   },
   "devDependencies": {
-    "@iconify/icons-mdi": "^1.1.29"
+    "@iconify/icons-mdi": "^1.1.36"
   }
 }
