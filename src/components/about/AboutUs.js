@@ -25,7 +25,7 @@ const AboutUs = () => {
   return (
     <div className="image-container">
       <div className="over-lay">
-      <Typography style={{ padding:"18%" ,color:"white"}}  variant="h2" component="div" gutterBottom>
+      <Typography style={{ padding:"18%" ,color:"white", justifyItems:"center"}}  variant="h2" component="div" gutterBottom>
           Vardaan
           {/* <div className={classes.sectionDesktop}>
             <div style={{marginRight: "46px"}} className="cheese">
